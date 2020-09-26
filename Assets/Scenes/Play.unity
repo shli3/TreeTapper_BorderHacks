@@ -763,7 +763,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1018,6 +1018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2068221216}
   - component: {fileID: 2068221217}
+  - component: {fileID: 2068221218}
   m_Layer: 0
   m_Name: Mecanikz
   m_TagString: Untagged
@@ -1053,6 +1054,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TreeDisplay: {fileID: 1488068717}
   InnerTree: 0
+--- !u!114 &2068221218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068221215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19578f247f50b345840452976323a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ATreePlanted: 0
 --- !u!1 &2104182191
 GameObject:
   m_ObjectHideFlags: 0
